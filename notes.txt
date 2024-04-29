@@ -47,3 +47,7 @@ git checkout [commit hash] - to go back to prevous version
 git checkout master or name
 
 git log --all --graph - to see the branch
+
+git aliases
+u can set some shortcuts
+git config --global alias.s "status"
