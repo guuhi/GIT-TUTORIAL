@@ -1,0 +1,32 @@
+git = version history of code, like version history of google docs
+
+command line:
+ls
+cd
+
+to setup git or create a version in a folder:
+from commandline: - go to folder directory
+                  - git innit 
+
+some commands are in the pdf!
+
+git status - to check the status, how many commits are there
+git add [file/folder]
+git add . - to add all that is in the cd (does not create a new version yet)
+
+version = commit
+
+git commmit -m ""
+            m = message
+
+git commit -m "" --amend - commit the changes but to the previous commit (when there is a mistake)
+
+git log - to see the version history
+commit d51f22c62b4803b4d011016afba0b2cbc6449262 (HEAD -> master)
+Author: guuhi <winterlab04@gmail.com>
+Date:   Mon Apr 29 21:30:07 2024 +0700
+
+    Version 1
+
+
+
