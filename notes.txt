@@ -28,5 +28,17 @@ Date:   Mon Apr 29 21:30:07 2024 +0700
 
     Version 1
 
+staging area = changes here will go in the next version, already git add
+below is the working area = changes that is not git add -ed yet, so it will not go to the next version
+
+CAN APPEAR IN BOTH PLACES because what git tracks is the changes not files.
+
+in staged areas
+git reset [file/folder] - so to make the changes in the working area
+git reset .
+
+can reset also in our changing area/working areas (so it will reset all the changes)
+git checkout -- [file/folder]
+git checkout .
 
 
